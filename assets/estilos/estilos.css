@@ -35,6 +35,8 @@ a {
 }
 .hero {
     background-image: url('../imagenes/hero.jpg');
+    width: 100%;
+    height: 400px;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
