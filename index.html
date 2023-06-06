@@ -285,21 +285,22 @@
       <div class="container text-center mt-5 mb-5" >
         <h2>Contactanos </h2>
         <p>LLena el siguiente formulario y en breves palabras cuentanos su problema, Grupo Legal Portoviejo se comunicará con ud a la brevedad posible.</p>
-        <form action="" class="row gap-3 justify-content-center">
+        <form  class="row gap-3 justify-content-center">
           <div class="col-md-5">
-            <input type="text" class="form-control" placeholder="Nombre Completo">
+            <input type="text" name="Nombre"  class="form-control name" placeholder="Nombre Completo">
           </div>
           <div class="col-md-5">
-            <input type="email" class="form-control" placeholder="Email">
+            <input type="email" name="email" class="form-control email" placeholder="Email">
           </div>
-          <div class="col-md-10">
-            <input type="text" class="form-control" placeholder="Asunto">
+          <div class="col-md-5">
+            <input type="text" name="asunto" class="form-control" placeholder="Asunto">
           </div>
-          <div class="col-md-10">
-            <textarea name="" id="" cols="30" rows="10" class="form-control" placeholder="Ingrese su mensaje"></textarea>
+          <div class="col-md-5">
+            <input type="text" name="celular" class="form-control" placeholder="Celular">
           </div>
           <div class="col-md-10 d-grid">
-            <button class="btn btn-success" >Enviar Mensaje</button>           
+            <button type="submit " class="btn btn-success" ><a href="https://api.whatsapp.com/send?phone=00593982321681&text=hola,%20¿qué%20tal%20estás?">Enviar</a></button>
+            
           </div>
         </form>
       </div>
@@ -309,7 +310,7 @@
       <div class="footer-top bg-success">
         <div class="container">
           <div class="row justify-content-center">
-            <div class="col-md-5 text-center redes">
+            <div class="col-md-12 text-center redes">
               <a href=""><i class='bx bxl-facebook' ></i></a>
               <a href=""><i class='bx bxl-twitter' ></i></a>
               <a href=""><i class='bx bxl-whatsapp' ></i></a>
@@ -325,3 +326,4 @@
         </div>
       </div>
     </footer>
+    
