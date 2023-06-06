@@ -1,12 +1,12 @@
 
- @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
 
 
 :root{
     --primary:rgb(63, 126, 21);
     --black:rgb(30, 32, 31);
     --light:rgb(113, 216, 118);
-    --dark:rgb(4, 51, 12);
+    --dark:rgb(30, 31, 30);
     --body:rgb(113, 116, 113);
     --box-shadow:0 8px 22px rgba(0,0,0,0.1);
 }
@@ -118,16 +118,31 @@ a {
     top: 0;
 }
 
-.col-img {
+.col-imgAdiela {
     background-image: url('../imagenes/adiela.jpeg');
     background-position: center;
     background-size: cover;
     min-height: 500px;
     width: 500px;
-    border-radius: 50%;
-    
-    
+    border-radius: 50%; 
 }
+.col-imgJordana {
+    background-image: url('../imagenes/yordana.jpeg');
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    width: 500px;
+    border-radius: 50%; 
+}
+.col-imgAnthony {
+    background-image: url('../imagenes/amigo.jpeg');
+    background-position: center;
+    background-size: cover;
+    min-height: 500px;
+    width: 500px;
+    border-radius: 50%; 
+}
+
 
 .iconbox2 {
     width: 30px;
@@ -140,4 +155,30 @@ a {
     font-size: 32px;
     border-radius: 100px;
     flex: none;
+}
+form input.form-control {
+    height: 56px;
+}
+form .form-control {
+    border: transparent;
+    border-radius: 0;
+    background-color: rgba(0,0,0,0.02);
+}
+.footer-top {
+    padding-bottom: 90px;
+    padding: 90px;
+   
+}
+.footer-top a {
+    color: #fff;
+    margin-left: 10px;
+}
+.footer-top p {
+    color: #fff;
+}
+.footer-top a:hover {
+    color: #b1adad;
+}
+.redes {
+    font-size: 30px;
 }
