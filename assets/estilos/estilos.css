@@ -1,6 +1,7 @@
 
  
-   @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
 
 
 :root{
@@ -37,16 +38,15 @@ a {
 .hero {
     background-image:linear-gradient(rgba(16,16,16,0.7), rgba(16,16,16,0.7)),url('../imagenes/adiela.jpeg');
     max-width: 100%;
-    height: auto;
+    height: 500px;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
-    display: grid;
-    grid-template-columns: repeat(10,1fr);
-    grid-template-rows: repeat(8,1fr);
-    
+   
 
 }
+
+
 
 /* .hero::after{
     content: "";
@@ -186,6 +186,7 @@ form .form-control {
     font-size: 30px;
 }
 .formulario {
-    height: 865px;
+    height: 980px;
+    width: 350px;
     
 }
