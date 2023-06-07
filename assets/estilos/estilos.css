@@ -125,15 +125,15 @@ a {
     background-image: url('../imagenes/adiela.jpeg');
     background-position: center;
     background-size: cover;
-    min-height: 500px;
+    min-height: 380px;
     width: 500px;
-    border-radius: 50%; 
+   
 }
 .col-imgJordana {
     background-image: url('../imagenes/yordana.jpeg');
     background-position: center;
     background-size: cover;
-    min-height: 500px;
+    min-height: 380px;
     width: 500px;
     border-radius: 50%; 
 }
@@ -141,7 +141,7 @@ a {
     background-image: url('../imagenes/amigo.jpeg');
     background-position: center;
     background-size: cover;
-    min-height: 500px;
+    min-height: 380px;
     width: 500px;
     border-radius: 50%; 
 }
